@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7B4AD4BFC52BDFD971865642905A65 /* Pods-KCNeumorphicKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BF3732EFE21A45513A4195B1309673 /* Pods-KCNeumorphicKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233666BD26B0DAFC32A2CE97080C1BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A294928535805AF6C0C1774D9E88B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D8B3183874E765DE3CE3BA3337A6904 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536000F28A799B92ABC1864AC11FD003 /* ReplaceMe.swift */; };
+		6C0E61634022A6F4218BB6FD0BBC9DE9 /* Pods-KCNeumorphicKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673056EC151D7876DA891654E255E67 /* Pods-KCNeumorphicKit_Tests-dummy.m */; };
+		97A1D03C798594B384B8143834EFC5E5 /* Pods-KCNeumorphicKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B681CFE508AADF378E0B44037D2E8573 /* Pods-KCNeumorphicKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A817CFAAC77B7B57D3B98ADC753FF9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C187AA6535A074C1D3971E8BD0441E08 /* KCNeumorphicKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 947630CC9BC3B88DCF7291A8F7E73C79 /* KCNeumorphicKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA7E5A7328968C4F00816876 /* KCNeuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E5A7228968C4F00816876 /* KCNeuView.swift */; };
+		CA7E5A7528968C9300816876 /* KCNeuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E5A7428968C9300816876 /* KCNeuButton.swift */; };
+		CA7E5A7728968EBE00816876 /* KCNeuTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E5A7628968EBE00816876 /* KCNeuTabBar.swift */; };
+		CA7E5A7928968EE100816876 /* KCNeuTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E5A7828968EE100816876 /* KCNeuTextField.swift */; };
+		CA7E5A7B28968EEF00816876 /* KCNeuSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E5A7A28968EEF00816876 /* KCNeuSearchBar.swift */; };
+		CA7E5A7D28968EFC00816876 /* KCNeuSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E5A7C28968EFC00816876 /* KCNeuSlider.swift */; };
+		CA7E5A7F28968F1000816876 /* KCNeuSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7E5A7E28968F1000816876 /* KCNeuSwitch.swift */; };
+		D2FDDC26E059AA5A1C76B587FAE1B923 /* KCNeumorphicKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806F7630DEA67C7B09AEDD86682DA3C /* KCNeumorphicKit-dummy.m */; };
+		DFFB9702A2A0BC25BB69C9C2D8C239BD /* Pods-KCNeumorphicKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFE2A08BA95940304656EC421DC6135 /* Pods-KCNeumorphicKit_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C757D2135B2338821F96CA8997E4158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73859A030439E82A1E19BC8A58989C88;
+			remoteInfo = "Pods-KCNeumorphicKit_Example";
+		};
+		D57B05F7A4739F9EC4FB25F4D2622738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4356BA0E51DAD9B298F078B5E1441359;
+			remoteInfo = KCNeumorphicKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01263C0FD79583C59FF9A357618DBD85 /* Pods-KCNeumorphicKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCNeumorphicKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1673056EC151D7876DA891654E255E67 /* Pods-KCNeumorphicKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCNeumorphicKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		2BFE2A08BA95940304656EC421DC6135 /* Pods-KCNeumorphicKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCNeumorphicKit_Example-dummy.m"; sourceTree = "<group>"; };
+		304F8A64940A0EE78A4A556A1C94F99E /* KCNeumorphicKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KCNeumorphicKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47754D7470D9D231CE9DD762779FFA22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4806F7630DEA67C7B09AEDD86682DA3C /* KCNeumorphicKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCNeumorphicKit-dummy.m"; sourceTree = "<group>"; };
+		4A1F3048773AC98B9AFACBB16A1D168C /* KCNeumorphicKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCNeumorphicKit.debug.xcconfig; sourceTree = "<group>"; };
+		536000F28A799B92ABC1864AC11FD003 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KCNeumorphicKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		66E1FE62163B88DAF3B661D38CA34F55 /* KCNeumorphicKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KCNeumorphicKit.modulemap; sourceTree = "<group>"; };
+		68063C8B27DB2F0C1D44D52430502C56 /* Pods-KCNeumorphicKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCNeumorphicKit_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DFB30C842F71A03604DA614940E09C1 /* Pods-KCNeumorphicKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCNeumorphicKit_Tests.modulemap"; sourceTree = "<group>"; };
+		86BF3732EFE21A45513A4195B1309673 /* Pods-KCNeumorphicKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCNeumorphicKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		9224B217DB66B22B6B98D805681D61C5 /* KCNeumorphicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCNeumorphicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933C01EDDF2BF2DE61DA6CEB6B74C0CB /* Pods-KCNeumorphicKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCNeumorphicKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93F6E8A129D7024D6904845A8D8DA982 /* Pods-KCNeumorphicKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCNeumorphicKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		947630CC9BC3B88DCF7291A8F7E73C79 /* KCNeumorphicKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCNeumorphicKit-umbrella.h"; sourceTree = "<group>"; };
+		953F71CFB45A57562B5B824C7189FB0A /* Pods-KCNeumorphicKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCNeumorphicKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		99437A632CC410E0F57117B986804D31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A70A2B9B097D1F298B6F48E3DD0A81F1 /* Pods-KCNeumorphicKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCNeumorphicKit_Example.modulemap"; sourceTree = "<group>"; };
+		A810A97158D6CF83AF0BC6C7A0049CF8 /* KCNeumorphicKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KCNeumorphicKit-Info.plist"; sourceTree = "<group>"; };
+		AE0FA326564397E3343D99368FFA3A7D /* Pods_KCNeumorphicKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCNeumorphicKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63FE7702C3A4E0765BA851968ED02CF /* Pods-KCNeumorphicKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KCNeumorphicKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B681CFE508AADF378E0B44037D2E8573 /* Pods-KCNeumorphicKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCNeumorphicKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BF5B31699A5D62D44BC764B6723EC4B2 /* Pods-KCNeumorphicKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCNeumorphicKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		BF780707E491B4FC741DEDDBB48D839D /* Pods-KCNeumorphicKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCNeumorphicKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C284F94CA98DB4E11F9C835BB5E4782E /* Pods_KCNeumorphicKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCNeumorphicKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40C91FECCC157C86B783DF4CF3ECA44 /* KCNeumorphicKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCNeumorphicKit.release.xcconfig; sourceTree = "<group>"; };
+		CA7E5A7228968C4F00816876 /* KCNeuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNeuView.swift; sourceTree = "<group>"; };
+		CA7E5A7428968C9300816876 /* KCNeuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNeuButton.swift; sourceTree = "<group>"; };
+		CA7E5A7628968EBE00816876 /* KCNeuTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNeuTabBar.swift; sourceTree = "<group>"; };
+		CA7E5A7828968EE100816876 /* KCNeuTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNeuTextField.swift; sourceTree = "<group>"; };
+		CA7E5A7A28968EEF00816876 /* KCNeuSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNeuSearchBar.swift; sourceTree = "<group>"; };
+		CA7E5A7C28968EFC00816876 /* KCNeuSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNeuSlider.swift; sourceTree = "<group>"; };
+		CA7E5A7E28968F1000816876 /* KCNeuSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCNeuSwitch.swift; sourceTree = "<group>"; };
+		CD5246DDD37C2A935394B4ADADB60069 /* Pods-KCNeumorphicKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCNeumorphicKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D03C31712698E75BD3115F4193653E9A /* Pods-KCNeumorphicKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCNeumorphicKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E472F09144F838034C5CD69441498F87 /* Pods-KCNeumorphicKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCNeumorphicKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F07EDC3506544520F0BC92ABE6EF1F81 /* KCNeumorphicKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCNeumorphicKit-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E168EBF45CBA8B46147D25AE4A9AEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A817CFAAC77B7B57D3B98ADC753FF9EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30ED99B2DE5F73C7B7389998296FDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233666BD26B0DAFC32A2CE97080C1BB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84CD9020759EC956C24ECEBB2E74535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A294928535805AF6C0C1774D9E88B20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5038A3334B794C5DAE1207BAFFB691C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9224B217DB66B22B6B98D805681D61C5 /* KCNeumorphicKit.framework */,
+				C284F94CA98DB4E11F9C835BB5E4782E /* Pods_KCNeumorphicKit_Example.framework */,
+				AE0FA326564397E3343D99368FFA3A7D /* Pods_KCNeumorphicKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68E4BC4873714A1509AA040D04F74253 /* Pods-KCNeumorphicKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A70A2B9B097D1F298B6F48E3DD0A81F1 /* Pods-KCNeumorphicKit_Example.modulemap */,
+				01263C0FD79583C59FF9A357618DBD85 /* Pods-KCNeumorphicKit_Example-acknowledgements.markdown */,
+				D03C31712698E75BD3115F4193653E9A /* Pods-KCNeumorphicKit_Example-acknowledgements.plist */,
+				2BFE2A08BA95940304656EC421DC6135 /* Pods-KCNeumorphicKit_Example-dummy.m */,
+				B63FE7702C3A4E0765BA851968ED02CF /* Pods-KCNeumorphicKit_Example-frameworks.sh */,
+				68063C8B27DB2F0C1D44D52430502C56 /* Pods-KCNeumorphicKit_Example-Info.plist */,
+				86BF3732EFE21A45513A4195B1309673 /* Pods-KCNeumorphicKit_Example-umbrella.h */,
+				933C01EDDF2BF2DE61DA6CEB6B74C0CB /* Pods-KCNeumorphicKit_Example.debug.xcconfig */,
+				BF780707E491B4FC741DEDDBB48D839D /* Pods-KCNeumorphicKit_Example.release.xcconfig */,
+			);
+			name = "Pods-KCNeumorphicKit_Example";
+			path = "Target Support Files/Pods-KCNeumorphicKit_Example";
+			sourceTree = "<group>";
+		};
+		6B2E81389C131E00B61DF9B900F08EB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E1FE62163B88DAF3B661D38CA34F55 /* KCNeumorphicKit.modulemap */,
+				4806F7630DEA67C7B09AEDD86682DA3C /* KCNeumorphicKit-dummy.m */,
+				A810A97158D6CF83AF0BC6C7A0049CF8 /* KCNeumorphicKit-Info.plist */,
+				F07EDC3506544520F0BC92ABE6EF1F81 /* KCNeumorphicKit-prefix.pch */,
+				947630CC9BC3B88DCF7291A8F7E73C79 /* KCNeumorphicKit-umbrella.h */,
+				4A1F3048773AC98B9AFACBB16A1D168C /* KCNeumorphicKit.debug.xcconfig */,
+				C40C91FECCC157C86B783DF4CF3ECA44 /* KCNeumorphicKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KCNeumorphicKit";
+			sourceTree = "<group>";
+		};
+		99EBD2297DBA7C58155BEA9B620BCF96 /* Pods-KCNeumorphicKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7DFB30C842F71A03604DA614940E09C1 /* Pods-KCNeumorphicKit_Tests.modulemap */,
+				93F6E8A129D7024D6904845A8D8DA982 /* Pods-KCNeumorphicKit_Tests-acknowledgements.markdown */,
+				953F71CFB45A57562B5B824C7189FB0A /* Pods-KCNeumorphicKit_Tests-acknowledgements.plist */,
+				1673056EC151D7876DA891654E255E67 /* Pods-KCNeumorphicKit_Tests-dummy.m */,
+				BF5B31699A5D62D44BC764B6723EC4B2 /* Pods-KCNeumorphicKit_Tests-Info.plist */,
+				B681CFE508AADF378E0B44037D2E8573 /* Pods-KCNeumorphicKit_Tests-umbrella.h */,
+				E472F09144F838034C5CD69441498F87 /* Pods-KCNeumorphicKit_Tests.debug.xcconfig */,
+				CD5246DDD37C2A935394B4ADADB60069 /* Pods-KCNeumorphicKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-KCNeumorphicKit_Tests";
+			path = "Target Support Files/Pods-KCNeumorphicKit_Tests";
+			sourceTree = "<group>";
+		};
+		9B7851A7D047840D1E0CA9ACA102C38F /* KCNeumorphicKit */ = {
+			isa = PBXGroup;
+			children = (
+				536000F28A799B92ABC1864AC11FD003 /* ReplaceMe.swift */,
+				A6D105CF9DFA257E201C055CF773CB57 /* Pod */,
+				6B2E81389C131E00B61DF9B900F08EB1 /* Support Files */,
+				CA7E5A7228968C4F00816876 /* KCNeuView.swift */,
+				CA7E5A7428968C9300816876 /* KCNeuButton.swift */,
+				CA7E5A7628968EBE00816876 /* KCNeuTabBar.swift */,
+				CA7E5A7828968EE100816876 /* KCNeuTextField.swift */,
+				CA7E5A7A28968EEF00816876 /* KCNeuSearchBar.swift */,
+				CA7E5A7C28968EFC00816876 /* KCNeuSlider.swift */,
+				CA7E5A7E28968F1000816876 /* KCNeuSwitch.swift */,
+			);
+			name = KCNeumorphicKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E5922252EA49D347A73DB8D32F1371B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E4BC4873714A1509AA040D04F74253 /* Pods-KCNeumorphicKit_Example */,
+				99EBD2297DBA7C58155BEA9B620BCF96 /* Pods-KCNeumorphicKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6D105CF9DFA257E201C055CF773CB57 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				304F8A64940A0EE78A4A556A1C94F99E /* KCNeumorphicKit.podspec */,
+				99437A632CC410E0F57117B986804D31 /* LICENSE */,
+				47754D7470D9D231CE9DD762779FFA22 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E80C7F50905FC510FBD823B910F61FE6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5038A3334B794C5DAE1207BAFFB691C6 /* Products */,
+				9E5922252EA49D347A73DB8D32F1371B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E80C7F50905FC510FBD823B910F61FE6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B7851A7D047840D1E0CA9ACA102C38F /* KCNeumorphicKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20B3BECBD82FE1C8DA07E6FF54844DF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7B4AD4BFC52BDFD971865642905A65 /* Pods-KCNeumorphicKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E53442EA2F7FEAB2E5E9F74D25E0E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C187AA6535A074C1D3971E8BD0441E08 /* KCNeumorphicKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91936EE82A8938E940ECAB61C62F5FD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A1D03C798594B384B8143834EFC5E5 /* Pods-KCNeumorphicKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4356BA0E51DAD9B298F078B5E1441359 /* KCNeumorphicKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D7FADFE27038B62F01D6728BCA158F /* Build configuration list for PBXNativeTarget "KCNeumorphicKit" */;
+			buildPhases = (
+				69E53442EA2F7FEAB2E5E9F74D25E0E9 /* Headers */,
+				92300ED054D30C268140DBEEE0F3BC46 /* Sources */,
+				C84CD9020759EC956C24ECEBB2E74535 /* Frameworks */,
+				E582AAEDEF1AF54B6F2A13D871BA2630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCNeumorphicKit;
+			productName = KCNeumorphicKit;
+			productReference = 9224B217DB66B22B6B98D805681D61C5 /* KCNeumorphicKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73859A030439E82A1E19BC8A58989C88 /* Pods-KCNeumorphicKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D91506B3ABCAB56D3FB88CDA8289CBA /* Build configuration list for PBXNativeTarget "Pods-KCNeumorphicKit_Example" */;
+			buildPhases = (
+				20B3BECBD82FE1C8DA07E6FF54844DF1 /* Headers */,
+				DD4DFA97D6C9DAEE422AC5AD9691F568 /* Sources */,
+				6E168EBF45CBA8B46147D25AE4A9AEC9 /* Frameworks */,
+				FDB7870059946AE63A2440F49E233C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5FCB900C884094397E9E2FE8508983 /* PBXTargetDependency */,
+			);
+			name = "Pods-KCNeumorphicKit_Example";
+			productName = Pods_KCNeumorphicKit_Example;
+			productReference = C284F94CA98DB4E11F9C835BB5E4782E /* Pods_KCNeumorphicKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCE92A72A5E7473DB53CB9CD70A56741 /* Pods-KCNeumorphicKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E4705C1EE761DAFB28E28E67D2B171 /* Build configuration list for PBXNativeTarget "Pods-KCNeumorphicKit_Tests" */;
+			buildPhases = (
+				91936EE82A8938E940ECAB61C62F5FD5 /* Headers */,
+				1AD96F1E220CEC112A5964E957F048BA /* Sources */,
+				C30ED99B2DE5F73C7B7389998296FDC1 /* Frameworks */,
+				ED110564A18705F98D9D69E09A253E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8841C112A20060E3821DD9FC5D7864C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-KCNeumorphicKit_Tests";
+			productName = Pods_KCNeumorphicKit_Tests;
+			productReference = AE0FA326564397E3343D99368FFA3A7D /* Pods_KCNeumorphicKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5038A3334B794C5DAE1207BAFFB691C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4356BA0E51DAD9B298F078B5E1441359 /* KCNeumorphicKit */,
+				73859A030439E82A1E19BC8A58989C88 /* Pods-KCNeumorphicKit_Example */,
+				BCE92A72A5E7473DB53CB9CD70A56741 /* Pods-KCNeumorphicKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E582AAEDEF1AF54B6F2A13D871BA2630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED110564A18705F98D9D69E09A253E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB7870059946AE63A2440F49E233C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD96F1E220CEC112A5964E957F048BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0E61634022A6F4218BB6FD0BBC9DE9 /* Pods-KCNeumorphicKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92300ED054D30C268140DBEEE0F3BC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7E5A7928968EE100816876 /* KCNeuTextField.swift in Sources */,
+				CA7E5A7F28968F1000816876 /* KCNeuSwitch.swift in Sources */,
+				CA7E5A7B28968EEF00816876 /* KCNeuSearchBar.swift in Sources */,
+				CA7E5A7728968EBE00816876 /* KCNeuTabBar.swift in Sources */,
+				CA7E5A7328968C4F00816876 /* KCNeuView.swift in Sources */,
+				D2FDDC26E059AA5A1C76B587FAE1B923 /* KCNeumorphicKit-dummy.m in Sources */,
+				CA7E5A7D28968EFC00816876 /* KCNeuSlider.swift in Sources */,
+				CA7E5A7528968C9300816876 /* KCNeuButton.swift in Sources */,
+				5D8B3183874E765DE3CE3BA3337A6904 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4DFA97D6C9DAEE422AC5AD9691F568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB9702A2A0BC25BB69C9C2D8C239BD /* Pods-KCNeumorphicKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8841C112A20060E3821DD9FC5D7864C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KCNeumorphicKit_Example";
+			target = 73859A030439E82A1E19BC8A58989C88 /* Pods-KCNeumorphicKit_Example */;
+			targetProxy = 6C757D2135B2338821F96CA8997E4158 /* PBXContainerItemProxy */;
+		};
+		9B5FCB900C884094397E9E2FE8508983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KCNeumorphicKit;
+			target = 4356BA0E51DAD9B298F078B5E1441359 /* KCNeumorphicKit */;
+			targetProxy = D57B05F7A4739F9EC4FB25F4D2622738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52CE695D8551CFBD323924FC45794D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF780707E491B4FC741DEDDBB48D839D /* Pods-KCNeumorphicKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCNeumorphicKit_Example/Pods-KCNeumorphicKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCNeumorphicKit_Example/Pods-KCNeumorphicKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5318DB8E9D14198EAA45C2C5A58C4A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1F3048773AC98B9AFACBB16A1D168C /* KCNeumorphicKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KCNeumorphicKit/KCNeumorphicKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KCNeumorphicKit/KCNeumorphicKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KCNeumorphicKit/KCNeumorphicKit.modulemap";
+				PRODUCT_MODULE_NAME = KCNeumorphicKit;
+				PRODUCT_NAME = KCNeumorphicKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56956FB2AED995E68B3170C18C7060E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5246DDD37C2A935394B4ADADB60069 /* Pods-KCNeumorphicKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCNeumorphicKit_Tests/Pods-KCNeumorphicKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCNeumorphicKit_Tests/Pods-KCNeumorphicKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		628B9CA776F1B03A47407705130688D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40C91FECCC157C86B783DF4CF3ECA44 /* KCNeumorphicKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KCNeumorphicKit/KCNeumorphicKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KCNeumorphicKit/KCNeumorphicKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KCNeumorphicKit/KCNeumorphicKit.modulemap";
+				PRODUCT_MODULE_NAME = KCNeumorphicKit;
+				PRODUCT_NAME = KCNeumorphicKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95087D9B1A018D1FB2184F57BBE622CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E472F09144F838034C5CD69441498F87 /* Pods-KCNeumorphicKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCNeumorphicKit_Tests/Pods-KCNeumorphicKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCNeumorphicKit_Tests/Pods-KCNeumorphicKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D723C6922116B9D5E13923884169D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933C01EDDF2BF2DE61DA6CEB6B74C0CB /* Pods-KCNeumorphicKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCNeumorphicKit_Example/Pods-KCNeumorphicKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCNeumorphicKit_Example/Pods-KCNeumorphicKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E4705C1EE761DAFB28E28E67D2B171 /* Build configuration list for PBXNativeTarget "Pods-KCNeumorphicKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95087D9B1A018D1FB2184F57BBE622CC /* Debug */,
+				56956FB2AED995E68B3170C18C7060E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D91506B3ABCAB56D3FB88CDA8289CBA /* Build configuration list for PBXNativeTarget "Pods-KCNeumorphicKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D723C6922116B9D5E13923884169D0B9 /* Debug */,
+				52CE695D8551CFBD323924FC45794D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D7FADFE27038B62F01D6728BCA158F /* Build configuration list for PBXNativeTarget "KCNeumorphicKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5318DB8E9D14198EAA45C2C5A58C4A5B /* Debug */,
+				628B9CA776F1B03A47407705130688D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

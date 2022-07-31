@@ -1,0 +1,22 @@
+{
+  "name": "KCNeumorphicKit",
+  "version": "0.1.0",
+  "summary": "A short description of KCNeumorphicKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KushalChoudhary14sep/KCNeumorphicKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KushalChoudhary14sep": "kchoudhary@suncor.com"
+  },
+  "source": {
+    "git": "https://github.com/KushalChoudhary14sep/KCNeumorphicKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KCNeumorphicKit/Classes/**/*"
+}

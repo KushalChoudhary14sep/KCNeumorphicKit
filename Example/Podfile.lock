@@ -1,0 +1,16 @@
+PODS:
+  - KCNeumorphicKit (0.1.0)
+
+DEPENDENCIES:
+  - KCNeumorphicKit (from `../`)
+
+EXTERNAL SOURCES:
+  KCNeumorphicKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KCNeumorphicKit: 955227d293d1f13ebedd71e7bd7ca39146a42c2a
+
+PODFILE CHECKSUM: dc21befc8b23760f42ae93b3bffad9b81d3e85b7
+
+COCOAPODS: 1.11.2

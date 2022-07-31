@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="KCNeumorphicKit_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQn-EI-CpT" customClass="KCNeuView" customModule="KCNeumorphicKit">
+                                <rect key="frame" x="48" y="40" width="127" height="120"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="r3g-0q-n1a"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VYG-Un-5q4" customClass="KCNeuView" customModule="KCNeumorphicKit">
+                                <rect key="frame" x="200" y="40" width="127" height="120"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="yyE-lk-rKf"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaH-Bd-ceo" customClass="KCNeuButton" customModule="KCNeumorphicKit">
+                                <rect key="frame" x="48" y="190" width="279" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="J3s-4l-psB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VqC-bL-GFY" customClass="KCNeuTextField" customModule="KCNeumorphicKit">
+                                <rect key="frame" x="48" y="280" width="279" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Aq0-Gb-Qfj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
+                            <searchBar contentMode="redraw" text="" translatesAutoresizingMaskIntoConstraints="NO" id="pFE-2k-qNT" customClass="KCNeuSearchBar" customModule="KCNeumorphicKit">
+                                <rect key="frame" x="32" y="360" width="311" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Kij-hn-UeK"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </searchBar>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fEM-6O-6O4" customClass="KCNeuSlider" customModule="KCNeumorphicKit">
+                                <rect key="frame" x="39" y="440" width="297" height="31"/>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fWR-7M-VfZ" customClass="KCNeuSwitch" customModule="KCNeumorphicKit">
+                                <rect key="frame" x="163" y="500" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VYG-Un-5q4" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="1qb-Iq-h7Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VqC-bL-GFY" secondAttribute="trailing" constant="32" id="223-zf-6R8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VYG-Un-5q4" secondAttribute="trailing" constant="32" id="RRy-kI-4GT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pFE-2k-qNT" secondAttribute="trailing" constant="16" id="RoD-Ig-CSY"/>
+                            <constraint firstItem="pFE-2k-qNT" firstAttribute="top" secondItem="VqC-bL-GFY" secondAttribute="bottom" constant="30" id="T3T-Zx-BLP"/>
+                            <constraint firstItem="IaH-Bd-ceo" firstAttribute="top" secondItem="uQn-EI-CpT" secondAttribute="bottom" constant="30" id="URt-1R-7yY"/>
+                            <constraint firstItem="uQn-EI-CpT" firstAttribute="width" secondItem="VYG-Un-5q4" secondAttribute="width" id="UVV-OE-Dcy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fEM-6O-6O4" secondAttribute="trailing" constant="25" id="Xr9-zc-gNJ"/>
+                            <constraint firstItem="IaH-Bd-ceo" firstAttribute="top" secondItem="VYG-Un-5q4" secondAttribute="bottom" constant="30" id="c4a-OX-MwE"/>
+                            <constraint firstItem="fEM-6O-6O4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="25" id="dtL-wP-Y0d"/>
+                            <constraint firstItem="fWR-7M-VfZ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="fgT-My-JIW"/>
+                            <constraint firstItem="fEM-6O-6O4" firstAttribute="top" secondItem="pFE-2k-qNT" secondAttribute="bottom" constant="30" id="i7k-WQ-X0e"/>
+                            <constraint firstItem="VqC-bL-GFY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="32" id="jgI-Eu-4sS"/>
+                            <constraint firstItem="uQn-EI-CpT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="32" id="m6T-b0-vvi"/>
+                            <constraint firstItem="IaH-Bd-ceo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="32" id="pbN-0j-zb4"/>
+                            <constraint firstItem="pFE-2k-qNT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="16" id="q8P-ia-7MX"/>
+                            <constraint firstItem="VYG-Un-5q4" firstAttribute="leading" secondItem="uQn-EI-CpT" secondAttribute="trailing" constant="25" id="r3B-Fv-JKI"/>
+                            <constraint firstItem="fWR-7M-VfZ" firstAttribute="top" secondItem="fEM-6O-6O4" secondAttribute="bottom" constant="30" id="tvF-3y-5M0"/>
+                            <constraint firstItem="uQn-EI-CpT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="u7U-Tk-h7i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IaH-Bd-ceo" secondAttribute="trailing" constant="32" id="ubz-hG-DKD"/>
+                            <constraint firstItem="VqC-bL-GFY" firstAttribute="top" secondItem="IaH-Bd-ceo" secondAttribute="bottom" constant="30" id="vkI-nO-sfR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="neuButton" destination="IaH-Bd-ceo" id="BBD-jw-Srd"/>
+                        <outlet property="neuSearchBar" destination="pFE-2k-qNT" id="N5s-qx-iPu"/>
+                        <outlet property="neuSlider" destination="fEM-6O-6O4" id="8br-Te-uXe"/>
+                        <outlet property="neuSwitch" destination="fWR-7M-VfZ" id="aa3-cb-jR5"/>
+                        <outlet property="neuTextField" destination="VqC-bL-GFY" id="1cP-fH-LhY"/>
+                        <outlet property="neuView" destination="uQn-EI-CpT" id="HYW-eD-pX1"/>
+                        <outlet property="neuView2" destination="VYG-Un-5q4" id="ykT-Kl-6QJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

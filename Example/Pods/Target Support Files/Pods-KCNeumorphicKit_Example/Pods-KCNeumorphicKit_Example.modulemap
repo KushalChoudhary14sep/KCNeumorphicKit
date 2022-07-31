@@ -1,0 +1,6 @@
+framework module Pods_KCNeumorphicKit_Example {
+  umbrella header "Pods-KCNeumorphicKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
