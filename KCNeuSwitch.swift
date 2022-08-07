@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class KCNeuSwitch: UISwitch {
+open class KCNeuSwitch: UISwitch {
    private let downShadow = CALayer()
     public override class func awakeFromNib() {
         super.awakeFromNib()

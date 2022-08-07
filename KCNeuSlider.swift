@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class KCNeuSlider: UISlider {
+open class KCNeuSlider: UISlider {
     private let downShadow = CALayer()
     public override class func awakeFromNib() {
         super.awakeFromNib()

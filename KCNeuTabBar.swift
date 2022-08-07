@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class KCNeuTabBar: UITabBar {
+open class KCNeuTabBar: UITabBar {
     public func setDropShadow(ViewBackgroundColor: UIColor, upperShadowColourWithAlphaComponent: UIColor, shadowRadius: CGFloat){
         self.tintColor = ViewBackgroundColor
         self.layer.shadowColor = upperShadowColourWithAlphaComponent.cgColor

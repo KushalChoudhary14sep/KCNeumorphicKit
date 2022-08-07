@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class KCNeuTextField: UITextField, UITextFieldDelegate {
+open class KCNeuTextField: UITextField, UITextFieldDelegate {
     
     private let downShadow = CALayer()
     private let upperShadow = CALayer()
@@ -32,7 +32,7 @@ public class KCNeuTextField: UITextField, UITextFieldDelegate {
         super.awakeFromNib()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
          super.init(coder: aDecoder)!
         addTarget(self, action: #selector(activate), for: .editingDidBegin)
         addTarget(self, action: #selector(deActivate), for: .editingDidEnd)

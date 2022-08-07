@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class KCNeuView: UIView{
+open class KCNeuView: UIView{
     let downShadow = CAShapeLayer()
     public func setDropShadow(ViewBackgroundColor: UIColor, downShadowColorWithAlphaComponent: UIColor, upperShadowColourWithAlphaComponent: UIColor, shadowRadius: CGFloat, shadowOffset: Int, shadowCornerRadius: CGFloat){
         downShadow.frame = self.bounds

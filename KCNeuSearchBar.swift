@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class KCNeuSearchBar: UISearchBar{
+open class KCNeuSearchBar: UISearchBar{
     let downShadow = CAShapeLayer()
     public override class func awakeFromNib() {
         super.awakeFromNib()

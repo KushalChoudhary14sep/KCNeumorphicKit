@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class KCNeuButton: UIButton{
+open class KCNeuButton: UIButton{
     private let downShadow = CALayer()
     private var titleColour = UIColor()
     public func setDropShadow(ViewBackgroundColor: UIColor, buttonTitleColour: UIColor,downShadowColorWithAlphaComponent: UIColor, upperShadowColourWithAlphaComponent: UIColor, shadowRadius: CGFloat, shadowCornerRadius: CGFloat){
