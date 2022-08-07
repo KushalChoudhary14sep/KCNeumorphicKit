@@ -184,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				536000F28A799B92ABC1864AC11FD003 /* ReplaceMe.swift */,
-				A6D105CF9DFA257E201C055CF773CB57 /* Pod */,
-				6B2E81389C131E00B61DF9B900F08EB1 /* Support Files */,
 				CA7E5A7228968C4F00816876 /* KCNeuView.swift */,
 				CA7E5A7428968C9300816876 /* KCNeuButton.swift */,
 				CA7E5A7628968EBE00816876 /* KCNeuTabBar.swift */,
@@ -193,6 +191,8 @@
 				CA7E5A7A28968EEF00816876 /* KCNeuSearchBar.swift */,
 				CA7E5A7C28968EFC00816876 /* KCNeuSlider.swift */,
 				CA7E5A7E28968F1000816876 /* KCNeuSwitch.swift */,
+				A6D105CF9DFA257E201C055CF773CB57 /* Pod */,
+				6B2E81389C131E00B61DF9B900F08EB1 /* Support Files */,
 			);
 			name = KCNeumorphicKit;
 			path = ../..;
