@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KCNeumorphicKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.swift_version    = '5.0'
   s.summary          = 'KCNeumorphicKit is a library to develop Neumorphic UI for iOS applications using Swift.'
 
